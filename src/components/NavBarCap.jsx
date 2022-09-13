@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { FaEnvelope, FaHouseUser } from "react-icons/fa";
+import { FaEnvelope, FaHouseUser,FaChessQueen } from "react-icons/fa";
 
 const NavBarCap = () => {
   return (
@@ -17,7 +17,7 @@ const NavBarCap = () => {
             <FaEnvelope className="m-2" />
           </Link>
         </Container>
-        <Navbar.Brand className="mx-4">Happy Cake</Navbar.Brand>
+        <Navbar.Brand className="mx-4">Happy Cake<FaChessQueen className="m-2"/></Navbar.Brand>
       </Navbar>
     </>
   );

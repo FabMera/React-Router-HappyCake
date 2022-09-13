@@ -3,9 +3,9 @@ import { Form, Button, Container } from "react-bootstrap";
 
 const Contacto = () => {
   return (
-    <Container className="justify-content-center">
+    <Container className="justify-content-center text-center">
     <h1 className="text-center m-4">Cuentanos, ¿en que te podemos ayudar?</h1>
-      <Form.Group className="mb-3 text-center">
+      <Form.Group className="mb-3">
         <Form.Label>Correo :</Form.Label>
         <Form.Control
           style={{ MaxWidth: "400px" }}
@@ -14,7 +14,7 @@ const Contacto = () => {
         />
       </Form.Group>
 
-      <Form.Group className="mb-3 text-center">
+      <Form.Group className="mb-3 ">
         <Form.Label>Descripcion :</Form.Label>
         <Form.Control
           as="textarea"
@@ -23,7 +23,7 @@ const Contacto = () => {
         />
       </Form.Group>
 
-      <Button variant="danger" type="submit">
+      <Button  variant="danger" type="submit">
         Enviar
       </Button>
     </Container>
